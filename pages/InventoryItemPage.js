@@ -12,6 +12,6 @@ export class InventoryItemPage {
     }
 
     productPrice(itemPrice) {
-        return this.inventoryItemPrice.filter({has:itemPrice});
+        return this.inventoryItemPrice.filter({hasText:itemPrice});
     }
 }
